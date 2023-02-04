@@ -11,17 +11,7 @@ public class Journal
 
   public  Journal()
   {
-    //string _path1 = @"C:\Users\spc184987\OneDrive - Saipem\Documents\Jan2023\CSE210-23\prove\Develop02\savedJournal.txt";
-    
-    {
-      
-      
-
-                    
-                
-                
-                
-    }
+    _save = "";
   }
   
 }
