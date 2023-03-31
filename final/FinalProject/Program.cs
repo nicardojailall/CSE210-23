@@ -80,7 +80,10 @@ public class Program
                 general.GetGeneralTest();
                 generalPoints.points();
             }
-
+            else
+            {
+                Console.Write("GoodBye");
+            }
         }
         
         

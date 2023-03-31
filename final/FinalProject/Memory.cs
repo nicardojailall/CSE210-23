@@ -112,17 +112,17 @@ public class Memory : IntelligentTest
         {
             outputFile.Write(percentage);
         }
-          // string readPoints = File.ReadAllText("percentage.txt");
-           // int values = Int32.Parse(readPoints);
-           // int calculate1 = values * 100;
-           // int calculate2 = percentage * 100;
-           // int calculate3 = calculate1 + calculate2;
-           // int totalPercentage = calculate3 / 200;
+           string readPoints = File.ReadAllText("percentage.txt");
+            int values = Int32.Parse(readPoints);
+            int calculate1 = values * 100;
+            int calculate2 = percentage * 100;
+            int calculate3 = calculate1 + calculate2;
+            int totalPercentage = calculate3 / 700;
             
-           // using (StreamWriter outputFile = new StreamWriter("percentage.txt"))
-           // {
-              // outputFile.Write(totalPercentage);
-            //}
+            using (StreamWriter outputFile = new StreamWriter("percentage.txt"))
+            {
+               outputFile.Write(totalPercentage);
+            }
             
             
         
